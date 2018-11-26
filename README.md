@@ -1,6 +1,6 @@
 # Flask-related
 Some materials related to the lightweight Flask frameworks,  a "micro" framework which provides URL routing and page rendering for web applications.
-Other features can be obtained via Flask extensions. For example, Flask doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade.
+Flask doesn't provide a page template engine. Other features can be obtained via Flask extensions. For example,  we can use extensions such as Jinja and Jade for templating.
 
 ## FlaskBasic001
 FlaskBasic001 contains the boilerplate code created automatically by the visual studio.
