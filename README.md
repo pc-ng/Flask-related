@@ -22,7 +22,7 @@ It is a simple calling convetion for web servers to forward requests to web appl
 ## FlaskBasic002
 This project extends the "FlaskBasic001" with structural formatting for further development with multiple views and templates.
 In particular, a folder "init" is created to hold the app object and views.
-The "views.py" contatins the page rendering code by importing the app object declared in "__init__.py".
+The "views.py" contatins the page rendering code by importing the app object.
 We renamed the root python files to "runserver.py", which defines the execution of the web application.
 
 In "views.py", we uses inline HTML to create dynamic content, i.e.,
