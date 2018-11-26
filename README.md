@@ -1,5 +1,5 @@
 # Flask-related
-Some materials related to the lightweight Flask frameworks, which is a "micro" framework for web applications, providing URL routing and page rendering.
+Some materials related to the lightweight Flask frameworks,  a "micro" framework which provides URL routing and page rendering for web applications.
 Other features can be obtained via Flask extensions. For example, Flask doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade.
 
 ## FlaskBasic001
