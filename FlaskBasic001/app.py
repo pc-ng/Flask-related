@@ -14,7 +14,7 @@ wsgi_app = app.wsgi_app
 @app.route('/hello')
 def hello():
     """renders a sample page."""
-    return "Hello Flask!"
+    return "Hello Flask!" 
 
 @app.route('/hello/<name>?message=<msg>')
 def hello(name, msg):
