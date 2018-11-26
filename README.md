@@ -19,3 +19,24 @@ For example,
 Note: Flask is based on WSGI (Web Server Gateway Interface).
 It is a simple calling convetion for web servers to forward requests to web applications.
 
+## FlaskBasic002
+This project extends the "FlaskBasic001" with structural formatting for further development with multiple views and templates.
+In particular, a folder "init" is created to hold the app object and views.
+The "views.py" contatins the page rendering code by importing the app object declared in "__init__.py".
+We renamed the root python files to "runserver.py", which defines the execution of the web application.
+
+In "views.py", we uses inline HTML to create dynamic content, i.e.,
+```
+def home():
+    now = datetime.now()
+    formatted_now = now.strftime("%A, %d %B, %Y at %X")
+
+    html_content = "<html><head><title>Hello Flask</title></head><body>"
+    html_content += "<strong>Hello Flask!</strong> on " + formatted_now
+    html_content += "</body></html>"
+
+    return html_content
+```
+
+## FlaskBasic003
+
