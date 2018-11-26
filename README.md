@@ -39,4 +39,25 @@ def home():
 ```
 
 ## FlaskBasic003
+Instead of using inline HTML, this project exploit the template for page rendering.
+In particular, an "index.html" is created in the templates folder. 
+A placeholder is used to accept the content defined by the function in "views.py", i.e.,
+'''
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <strong>{{ message }}</strong>{{ content }}
+    </body>
+</html>
+'''
+
+We need to import the render_template from flask.
+Note that the render_template will automatically skip the inline HTML content.
+In other words, we can't have inline HTML content when using render_template.
+Instead, every HTML styling is maintained with a separate markup file.
+
+## FlaskBasic004
+
 
